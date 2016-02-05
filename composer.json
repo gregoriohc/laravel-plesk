@@ -1,0 +1,29 @@
+{
+  "name": "gregoriohc/laravel-plesk",
+  "description": "A Laravel wrapper and facade package for the Plesk RPC API",
+  "keywords": ["laravel", "package", "facade", "plesk", "api"],
+  "homepage": "https://github.com/gregoriohc/laravel-plesk",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Gregorio Hernández Caso",
+      "email": "gregoriohc@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/config": "~5",
+    "illuminate/support": "~5",
+    "plesk/api-php-lib": "@dev"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Gregoriohc\\LaravelPlesk\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
