@@ -1,8 +1,8 @@
 {
-  "name": "gregoriohc/laravel-plesk",
+  "name": "trotexnet/laravel-plesk",
   "description": "A Laravel wrapper and facade package for the Plesk RPC API",
   "keywords": ["laravel", "package", "facade", "plesk", "api"],
-  "homepage": "https://github.com/gregoriohc/laravel-plesk",
+  "homepage": "https://github.com/trotexnet/laravel-plesk",
   "license": "MIT",
   "authors": [
     {
