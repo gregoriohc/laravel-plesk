@@ -30,7 +30,7 @@ class PleskServiceProvider extends LaravelServiceProvider {
      */
     public function register() {
 
-        $this->app['plesk'] = $this->app->share(function($app) {
+        $this->app->singleton('plesk', function($app) {
             return new Wrapper($app['config']);
         });
     }
